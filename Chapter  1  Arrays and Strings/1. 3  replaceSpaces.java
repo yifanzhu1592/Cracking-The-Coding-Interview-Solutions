@@ -18,7 +18,7 @@ void replaceSpaces(char[] str, int trueLength) {
   }
 }
 
-/* Count occurrences of target between start (inclusive) and end (exclusive).
+/* Count occurrences of target between start (inclusive) and end (exclusive). */
 int countOfChar(char[] str, int start, int end, int target) {
   int count = 0;
   for (int i = start; i < end; i++) {
